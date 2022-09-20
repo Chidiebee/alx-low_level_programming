@@ -25,4 +25,3 @@ int _atoi(char *s)
 
 	return (num * sign);
 }
-101-keygen.c
