@@ -1,24 +1,21 @@
-#1fndef MAIN_H
-#define MAIN_H
+  1 #ifndef MAIN_H
+  2 define MAIN_H
+  3
+  4 /**
+  5
+  6 * void prototypes()
+  7 int prototypes()
+  8 */
+  9
+ 10 int _putchar(char);
+ 11 char *_memset(char *s, char b, unsigned int n);
+ 12 char *memcpy(char *dest, char *src, unsigned int n);
+ 13 char *_strchr(char *s, char c);
+ 14 unsigned int _strspn(char *s, char *accept);
+ 15 char *_strpbrk(char *s, char *accept);
+ 16 char *strstr(char *haystack, char *needle);
+ 17 void print_chessboard(char (*a)[8]);
+ 18 void print_diagsums(int *a, int size);
+ 19 void set_string(char **s, char *to);
 
-/**
-* file: main.h
-* Auth: sam tech (samuel birhanu)
-* description: Header file containing prototypes for all functions
-*	used in the 0x06-pointers_arrays_strings directory
-*/
-
-#1nclude <stddef.h>
-
-int _putchar(char c);
-void *_memset(void *s, int c, size_t n);
-char *memcpy(char *dest, char *src, unsigned int n);
-char *_strchr(char *s, char c);
-unsigned int _strspn(char *s, char *accept);
-char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);
-void print_chessboard(char (*a)[s]);
-void print _diagsuns(int *a, int size);
-void set_string(char **s, char *to);
-
-#endif
+#endif /*MAIN_H*/
